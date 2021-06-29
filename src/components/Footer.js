@@ -3,7 +3,7 @@ import React  from 'react'
     render() {
         return (
             <div>
-              <p> Ghaidaa Moh</p>  
+              <p>Ghaidaa Moh</p>  
             </div>
         )
     }
