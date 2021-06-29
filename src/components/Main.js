@@ -9,7 +9,7 @@ import Horend from './Horend.json'
             <div>
                {Horend.map((item,index)=>{
                    return(
-                   <HornedBeast  title={item.title} prag={item.description} url={item.image_url} key={index} />
+                   <HornedBeast  title={item.title} prag={item.description} url={item.image_url} key={index}  handleShow={this.props.handleShow} modalData={this.props.modalData}/>
                    )
                })}
 
