@@ -19,7 +19,7 @@ this.state={
     }
     render() {
         return (
-            <div className="hornedbeasts">
+            <div className="hornedbeasts" style={{display:"inline-block", margin:"25px"}}>
 
                 <Card style={{ width: '18rem' }}>
                   
