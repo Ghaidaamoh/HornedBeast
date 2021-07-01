@@ -19,7 +19,7 @@ this.state={
     }
     render() {
         return (
-            <div className="hornedbeasts">
+            <div className="hornedbeasts" style={{display:"inline-block", margin:"25px"}}>
 
                 <Card style={{ width: '18rem' }}>
                   
@@ -33,7 +33,7 @@ this.state={
                         Vote if you like me ...
                         </Card.Text>
                         <Card.Text>
-                        Num Of Likes : {this.state.numoflikes}
+                         ❤: {this.state.numoflikes}
                         </Card.Text> 
                         <Button variant="danger" onClick={this.handleShow}>Details</Button>
                     </Card.Body>
