@@ -33,7 +33,7 @@ this.state={
                         Vote if you like me ...
                         </Card.Text>
                         <Card.Text>
-                        Num Of Likes : {this.state.numoflikes}
+                        ❤: {this.state.numoflikes}
                         </Card.Text> 
                         <Button variant="danger" onClick={this.handleShow}>Details</Button>
                     </Card.Body>
