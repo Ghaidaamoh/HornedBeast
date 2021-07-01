@@ -21,7 +21,7 @@ this.state={
                   
                     <Card.Body>
                         <Card.Title>{this.props.title}</Card.Title>
-                        <Card.Img  variant="top"  onClick={this.numoflike}  src={this.props.image_url} alt={this.props.title} />
+                        <Card.Img  variant="top"  onClick={this.numoflike}  src={this.props.url} alt={this.props.title} />
                         <Card.Text>
                             {this.props.prag}
                         </Card.Text>
@@ -29,7 +29,7 @@ this.state={
                         Vote if you like me ...
                         </Card.Text>
                         <Card.Text>
-                        Num Of Likes : {this.state.numoflikes}
+                        ❤ : {this.state.numoflikes}
                         </Card.Text> 
 
                     </Card.Body>
